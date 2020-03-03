@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Border Radius</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Border Radius</h1>
+      <p id="box" class="border-box"></p>
+      <div class="controls">
+        <div class="row">
+          <div class="top-left">
+            <p><span id="tl">0</span></p>
+            <input
+              id="border-slider-tl"
+              type="range"
+              min="1"
+              max="100"
+              name="border-slider-tl"
+              value="0"
+            />
+          </div>
+          <div class="bottom-left">
+            <p><span id="bl">0</span></p>
+            <input
+              id="border-slider-bl"
+              type="range"
+              min="1"
+              max="100"
+              name="border-slider-bl"
+              value="0"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="top-right">
+            <p><span id="tr">0</span></p>
+            <input
+              id="border-slider-tr"
+              type="range"
+              min="1"
+              max="100"
+              name="border-slider-tr"
+              value="0"
+            />
+          </div>
+          <div class="bottom-right">
+            <p><span id="br">0</span></p>
+            <input
+              id="border-slider-br"
+              type="range"
+              min="1"
+              max="100"
+              name="border-slider-br"
+              value="0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

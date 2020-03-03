@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Caladea&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid crimson; */
+}
+
+body {
+  font-family: "Caladea", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px gray;
+}
+
+.row {
+  display: block;
+  width: 100%;
+}
+
+.border-box {
+  text-transform: lowercase;
+  border: 10px solid teal;
+  height: 400px;
+  width: 600px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  margin: 5px;
+}
+
+.controls input[type="range"] {
+  width: 100%;
+}
+
+.controls p {
+  text-align: center;
+}
